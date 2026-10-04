@@ -22,9 +22,9 @@ public class SimpleCarController : MonoBehaviour
     [Header("Drift Settings")]
     [Tooltip("Sideways stiffness during normal driving")]
     public float normalSidewaysStiffness = 1.0f;
-    [Tooltip("Lower stiffess allows the rear to slide sideways")]
+    [Tooltip("Lower stiffness allows the rear to slide sideways")]
     public float driftSidewaysStiffness = 0.38f;
-    [Tooltip("Multiplier applied to steering angle while holding handbrake
+    [Tooltip("Multiplier applied to steering angle while holding handbrake")]
     public float driftSteerMultiplier = 1.25f;
 
     private Rigidbody rb;
